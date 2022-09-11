@@ -24,7 +24,7 @@ namespace Multithreading
             t3.name = "t3 thread";
             t2.priority = threadpriority.highest;
             t1.priority = threadpriority.normal;
-            t3.priority = threadpriority.lowest;
+            t3.priority = threadpriority.lowest
             t2.start();
             t1.start();
             t1.join();
